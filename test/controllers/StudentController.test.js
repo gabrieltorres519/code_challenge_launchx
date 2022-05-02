@@ -1,3 +1,6 @@
+const Reader = require("../utils/Reader");
+const StudentController = require("../../lib/controllers/StudentController");
+
 describe('Unit tests for StudentController Class',()=>{
 
     test('1) Use the StudentService method to obtain all the students',()=>{
