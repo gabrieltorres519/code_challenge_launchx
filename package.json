@@ -1,0 +1,28 @@
+{
+  "name": "code_challenge_launchx",
+  "version": "1.0.0",
+  "description": "API_desafio_launchX",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/.bin/jest",
+    "linter": "node ./node_modules/eslint/bin/eslint.js .",
+    "linter-fix": "node ./node_modules/eslint/bin/eslint.js . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrieltorres519/code_challenge_launchx.git"
+  },
+  "author": "gabrieltorres519",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrieltorres519/code_challenge_launchx/issues"
+  },
+  "homepage": "https://github.com/gabrieltorres519/code_challenge_launchx#readme",
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "jest": "^28.0.3"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
