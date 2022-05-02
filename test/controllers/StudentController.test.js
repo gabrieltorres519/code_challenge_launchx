@@ -24,4 +24,14 @@ describe('Unit tests for StudentController Class',()=>{
 
     })
 
+    test('3) Use the StudentService method to obtain all the students with credits > 500',()=>{
+        //Código de la app
+        const  students500 = StudentController.showStudents500(); 
+
+        //Validaciones
+        expect(students500).not.toBeUndefined()
+        expect(students500[2]).toBeUndefined()
+
+    })
+
 })
