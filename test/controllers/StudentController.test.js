@@ -1,9 +1,13 @@
 describe('Unit tests for StudentController Class',()=>{
-    test('1) Try',()=>{
+
+    test('1) Use the StudentService method to obtain all the students',()=>{
         //Código de la app
-            let a = 2;
+        const students = StudentController.showAllStudents();
 
         //Validaciones
-        expect(a).toBe(2)
+        expect(Students).not.toBeUndefined()
+        expect(Students[0]).not.toBeUndefined()
+
     })
+
 })
