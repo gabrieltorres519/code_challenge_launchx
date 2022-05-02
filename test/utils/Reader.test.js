@@ -1,9 +1,11 @@
 describe('Unit tests for Reader Class',()=>{
-    test('1) ',()=>{
+    
+    test('1) Functionality to read the Json "Database" of students and obtain them all',()=>{
         //Código de la app
-            let a = 2;
-
+        const Students = Reader.readDBFile("visualpartners.json");
+        
         //Validaciones
-        expect(a).toBe(2)
+        expect(Students).not.toBeUndefined()
     })
+
 })
