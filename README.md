@@ -1,22 +1,26 @@
+![Ajolonauta-Woopa!](https://user-images.githubusercontent.com/17634377/159151704-8949639b-ae5f-405a-a8b8-8d97f3f150cd.png)
+
 Requerimientos:
 
-Habilitar un endpoint para consultar todos los estudiantes con todos sus campos.
-Habilitar un endpoint para consultar los emails de todos los estudiantes que tengan certificación haveCertification.
-Habilitar un endpoint para consultar todos los estudiantes que tengan credits mayor a 500.
+* Habilitar un endpoint para consultar todos los estudiantes con todos sus campos.
+* Habilitar un endpoint para consultar los emails de todos los estudiantes que tengan certificación haveCertification.
+* Habilitar un endpoint para consultar todos los estudiantes que tengan credits mayor a 500.
 
 
 Entrega:
 
-Crea un repositorio en GitHub para guardar este nuevo proyecto.
-Agrega pruebas automatizadas con GitHub Actions.
-Sé consistente en tu control de versiones, que tus commits expliquen tu forma de construir el proyecto.
-Agrega un readme.md con las siguientes secciones:
-Detalla qué dependencias estás usando y para qué.
-Explica el diseño de tus componentes.
-Explica tu API: cómo consultarla, qué formato va a responder, incluye ejemplos etc.
+### Crea un repositorio en GitHub para guardar este nuevo proyecto.
+### Agrega pruebas automatizadas con GitHub Actions.
+### Sé consistente en tu control de versiones, que tus commits expliquen tu forma de construir el proyecto.
+### Agrega un readme.md con las siguientes secciones:
+---
+#### Detalla qué dependencias estás usando y para qué.
+#### Explica el diseño de tus componentes.
+#### Explica tu API: cómo consultarla, qué formato va a responder, incluye ejemplos etc.
+
 Tú decides qué hacer, cómo hacerlo, cómo diseñarlo. TODO.
 
-Importante: Toma nota de cuanto tiempo te lleva resolver esto.
+## Importante: Toma nota de cuanto tiempo te lleva resolver esto.
 
 
 ## Dependencias utilizadas en este proyecto
@@ -38,8 +42,11 @@ Herramienta que nos ayuda a seguir una guía de estilo en la escritura, como con
 
 
 [Jest](https://jestjs.io/docs/26.x/getting-started)
+---
 [Express](https://expressjs.com/)
+---
 [Linter](https://eslint.org/docs/user-guide/getting-started)
+---
 
 
 
