@@ -19,5 +19,18 @@ describe('Unit tests for StudentService Class',()=>{
         //Validaciones
         expect(emails).not.toBeUndefined()
         expect(emails[0]).toBe("Todd@visualpartnership.xyz")
+        expect(emails[4]).toBeUndefined()
+
     })
+
+    test("3) Obtain students with credits > 500",()=>{
+        //Código de la app
+        const  students500 = StudentService.getStudents500("visualpartners.json"); 
+
+        //Validaciones
+        expect(students500).not.toBeUndefined()
+        expect(students500[2]).toBeUndefined()
+
+    })
+ 
 })
