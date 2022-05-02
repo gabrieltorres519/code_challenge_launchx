@@ -17,6 +17,7 @@ describe('Unit tests for StudentService Class',()=>{
         const emails = StudentService.getEmailsCertified("visualpartners.json");
 
         //Validaciones
+        expect(emails).not.toBeUndefined()
         expect(emails[0]).toBe("Todd@visualpartnership.xyz")
     })
 })
