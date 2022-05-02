@@ -50,7 +50,7 @@ Herramienta que nos ayuda a seguir una guía de estilo en la escritura, como con
 
 
 
-Comienzo 12:27 am - ...
+Comienzo 12:27 am - 2:54 pm with interruptions
 
 
 
